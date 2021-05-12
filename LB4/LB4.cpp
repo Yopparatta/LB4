@@ -30,7 +30,7 @@ void ShakerSort(vector<int>& values) {
 int main()
 {
     setlocale(LC_ALL,"Russian");
-    vector<int> array = { -1 ,  2 , -3 ,  4 ,  7 ,  6, 228  };
+    vector<int> array = { -1 ,  2 , -3 ,  4 ,  7 ,  6, 3  };
     int sum = 0, min=10,max=0,index=0,proizv=1,indmin=0,indmax=0;
     for (int i : array) {
         if (i > 0) {
